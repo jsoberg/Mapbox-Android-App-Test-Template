@@ -1,10 +1,14 @@
 [versions]
+androidxActivity = "1.8.2"
 androidGradlePlugin = "8.2.2"
 kotlin = "1.9.22"
 kotlinCoroutines = "1.7.3"
 mapbox = "11.1.0"
 
 [libraries]
+
+# AndroidX
+androidX-activity = { module = "androidx.activity:activity", version.ref = "androidxActivity" }
 
 # Kotlin
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }

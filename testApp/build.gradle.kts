@@ -4,6 +4,8 @@ plugins {
 }
 
 repositories {
+    google()
+    mavenCentral()
     maven {
         url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
         authentication.create<BasicAuthentication>("basic")
@@ -33,6 +35,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidX.activity)
     implementation(libs.kotlin.stdlib)
     implementation(libs.kotlin.coroutines)
     implementation(libs.mapbox.android)
