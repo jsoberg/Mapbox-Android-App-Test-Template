@@ -1,0 +1,18 @@
+[versions]
+androidGradlePlugin = "8.2.2"
+kotlin = "1.9.22"
+kotlinCoroutines = "1.7.3"
+mapbox = "11.1.0"
+
+[libraries]
+
+# Kotlin
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlin" }
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinCoroutines" }
+
+# MapBox
+mapbox-android = { module = "com.mapbox.maps:android", version.ref = "mapbox" }
+
+# Plugins
+android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
