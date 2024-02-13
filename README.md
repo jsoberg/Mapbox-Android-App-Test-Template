@@ -7,7 +7,7 @@ Test template for creating a simple PoC of a MapBox Android App.
 In order to build and run, you need to add the `MAPBOX_DOWNLOADS_TOKEN` and `MAPBOX_ACCESS_TOKEN` values to your `local.properties` files like so, before building:
 ```
 MAPBOX_DOWNLOADS_TOKEN=my.secret.downloads.token
-~~~~
+
 MAPBOX_ACCESS_TOKEN=my.public.access.token
 ```
 
