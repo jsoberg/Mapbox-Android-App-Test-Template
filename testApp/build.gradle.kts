@@ -61,6 +61,7 @@ android {
 
 dependencies {
     implementation(libs.androidX.activity)
+    implementation(libs.androidX.interpolator)
     implementation(libs.kotlin.stdlib)
     implementation(libs.kotlin.coroutines)
     implementation(libs.mapbox.android)
